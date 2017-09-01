@@ -39,7 +39,7 @@ class Zuikaku {
     registSchedule() {
         var self = this;
         self.schedule.scheduleJob('*/1 * * * *', function () {
-            var result = self.getRandomInt(1, 100);
+            var result = self.getRandomInt(1, 10000);
             if (result <= 2) {
                 self.sendMessageToAll('ｽﾞｲ₍₍(ง˘ω˘)ว⁾⁾ｽﾞｲ');
             }
