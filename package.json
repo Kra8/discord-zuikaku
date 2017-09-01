@@ -1,0 +1,20 @@
+{
+  "name": "Zuikaku",
+  "version": "1.0.0",
+  "description": "Zuikaku is discord bot. Sometimes say 'ZuiZui'.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "develop": "DEVELOP=true node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K.Asai(koki@asai.email)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "dotenv": "^4.0.0",
+    "moment": "^2.18.1",
+    "node-schedule": "^1.2.1",
+    "twitter": "^1.7.0"
+  }
+}
